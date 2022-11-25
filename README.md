@@ -6,7 +6,7 @@
 
 ## 安装
 
-以chrome浏览器为例
+以chrome浏览器为例，安装插件后需要刷新网页生效
 1) 安装将压缩包下载到本地，并解压得到以下文件
 
 <img src="https://pic.imgdb.cn/item/6380d9f616f2c2beb14463e1.png" width = "400" height = "200"  />
