@@ -42,7 +42,7 @@
 		"webRequestBlocking",
 		"storage",
 		"*://*/*",
-		"http://*、*",
+		"http://*/*",
         "https://*/*"
 		
 	],
