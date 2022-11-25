@@ -24,30 +24,30 @@
 <hr>
 4)选择刚刚解压的文件，并进入如下目录结构，并点击确定。至此插件完整完毕。
 
-<img src="https://pic.imgdb.cn/item/6380dc2e16f2c2beb14d5622.png" width = "400" height = "200" div  />
+<img src="https://pic.imgdb.cn/item/6380dc2e16f2c2beb14d5622.png" width = "400" height = "200"   />
 <hr>
 
 ## 页面
 
 点击右上角盯盯翻译图标，弹出窗口中进行翻译。
 
-<img src="https://pic.imgdb.cn/item/6380e03d16f2c2beb159c953.png" width = "400" height = "200" div  />
+<img src="https://pic.imgdb.cn/item/6380e03d16f2c2beb159c953.png" width = "400" height = "200"   />
 <hr>
 选中需要翻译的文字，鼠标右键菜单中并可以选择翻译。
 
-<img src="https://pic.imgdb.cn/item/6380de0d16f2c2beb15361f1.jpg" width = "400" height = "200" div  />
+<img src="https://pic.imgdb.cn/item/6380de0d16f2c2beb15361f1.jpg" width = "400" height = "200"   />
 <hr>
 点击翻译为中文
 
-<img src="https://pic.imgdb.cn/item/6380decc16f2c2beb1554b49.png" width = "400" height = "200" div  />
+<img src="https://pic.imgdb.cn/item/6380decc16f2c2beb1554b49.png" width = "400" height = "200"  />
 <hr>
 翻译前后对比
 
 翻译前
 
-<img src="https://pic.imgdb.cn/item/6380e09516f2c2beb15aa470.png" width = "400" height = "200" div  />
+<img src="https://pic.imgdb.cn/item/6380e09516f2c2beb15aa470.png" width = "400" height = "200"   />
 
 翻译后
 
 
-<img src="https://pic.imgdb.cn/item/6380dfd716f2c2beb15828b7.png" width = "400" height = "200" div  />
+<img src="https://pic.imgdb.cn/item/6380dfd716f2c2beb15828b7.png" width = "400" height = "200"   />
