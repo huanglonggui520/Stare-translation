@@ -51,3 +51,7 @@
 
 
 <img src="https://pic.imgdb.cn/item/6380dfd716f2c2beb15828b7.png" width = "400" height = "200"   />
+
+## 建议
+
+有什么建议的请联系```2764564604@qq.com```
