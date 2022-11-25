@@ -1,0 +1,43 @@
+// 插入指定元素到指定位置
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>selection</title>
+  </head>
+  <body>
+    <div class="c">
+        <p style="color: red;">伟业亲爱结婚的jw</p>
+    </div>
+    <p>是备承玉降李韩珍动付穿，陀是搏故，论毒得自快。</p>
+  </body>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+    var funcGetSelectText = function () {
+        var txt = '';
+        if (document.selection) {
+            txt = document.selection.createRange().text; //ie浏览器
+        } else {
+            txt = document.getSelection(); //其他浏览器
+        }
+        return txt.toString();
+    }
+    var container = container || document;
+    container.oncontextmenu = function (e) {
+        // alert(e)
+        console.log(e.target);
+        e.target.style.color='red'
+        var txt = funcGetSelectText();
+        if (txt) {
+            // alert(txt);
+            chrome.runtime.sendMessage({
+                info: txt
+              }, res => {
+                // 答复
+                // alert(res)
+              })
+              
+        }
+    }
+})
+  </script>
+</html>

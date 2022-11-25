@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>插件</title>
+    
+    <style>
+        *{
+            margin: 2px;
+        }
+        .contentfy{
+            width: 400px;
+            /* text-align: center; */
+            /* height: 300px; */
+            margin-bottom: 10px;
+            /* background-color: red; */
+        }
+        .contentfy #sr{
+            width: 390px;
+            border: 1px solid #B5B6B5;
+            height: 100px;
+            border-radius: 2px;
+            /* text-align: center; */
+        }
+        .buttonsend{
+            display: block;
+            width: 100px;
+            border-radius: 5px;
+            /* border: 1px solid #B5B6B5; */
+            /* border: 1px solid #B5B6B5; */
+            background-color: #0069B9;
+            color: #fff;
+            float: right;
+            height: 30px;
+        }
+        .value{
+            width: 395px;
+            height: 150px;
+            overflow-y: scroll;
+            margin-top: 40px;
+            background-color: #F5F5F5;
+        }
+        .xlk{
+            width: 120px;
+            height: 30px;
+            overflow-y: scroll;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="contentfy">
+        <h2>翻译</h2>
+        
+        <textarea id="sr"  rows="10" placeholder="输入文字"></textarea>
+       <div style="display:inline;float: left;">
+        翻译为：
+        <!-- Split button -->
+        <select class="xlk">
+            <option value="en">英文</option>
+            <option value="zh">中文</option>
+            <!-- <option value="banana">香蕉</option> -->
+        </select>
+       </div>
+       
+        <button class="buttonsend">翻译</button>
+        
+        <div class="value"></div>
+    </div>
+    <script src="js/md5.js"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
+   
+    <script src="js/popub.js"></script>
+    
+</body>
+</html>

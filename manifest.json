@@ -1,0 +1,74 @@
+{
+	
+	"manifest_version": 2,
+	
+	"name": "盯盯翻译",
+	
+	"version": "1.0.0",
+	
+	"description": "第一个插件",
+	
+	"icons":
+	{
+		"16": "img/icon.png",
+		"48": "img/icon.png",
+		"128": "img/icon.png"
+	},
+	
+	
+	
+	"browser_action": 
+	{
+		"default_icon": "img/icon.png",
+		
+		"default_title": "翻译插件",
+		"default_popup": "popub.html"
+	},
+	"background" : {
+		"page":"background.html",
+        "persistent": true
+    },
+	
+	
+	
+	"content_security_policy": "script-src 'self' https://fanyi-api.baidu.com/; object-src 'self'",
+	"permissions":
+	[
+		"contextMenus", 
+		"tabs", 
+		"notifications", 
+		"activeTab",
+		"webRequest", 
+		"webRequestBlocking",
+		"storage",
+		"*://*/*",
+		"http://*、*",
+        "https://*/*"
+		
+	],
+	
+	
+	"homepage_url": "https://www.baidu.com",
+	
+	"chrome_url_overrides":
+	{
+		
+		"newtab": "newtab.html"
+	},
+	
+	"options_ui":
+	{
+		"page": "newtab.html",
+		
+		"chrome_style": true
+	},
+    "content_scripts":[
+		{
+		 "matches":["<all_urls>"],
+		 "js": ["js/jquery-3.6.1.min.js", "js/content-script.js"],
+		 "run_at": "document_start"
+		 
+		}
+	 ]
+	
+}
