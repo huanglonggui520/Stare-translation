@@ -19,13 +19,14 @@
 <hr>
 3) 点击已解压的扩展程序。
 
-<img src="https://pic.imgdb.cn/item/6380dbb016f2c2beb14bebb7.png" width = "400" height = "180"   />
+<img src="https://pic.imgdb.cn/item/6380dbb016f2c2beb14bebb7.png" width = "400" height = "200"   />
 
 <hr>
 4)选择刚刚解压的文件，并进入如下目录结构，并点击确定。至此插件完整完毕。
 
 <img src="https://pic.imgdb.cn/item/6380dc2e16f2c2beb14d5622.png" width = "400" height = "200" div  />
 <hr>
+
 ## 页面
 
 点击右上角盯盯翻译图标，弹出窗口中进行翻译。
