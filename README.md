@@ -9,11 +9,33 @@
 以chrome浏览器为例
 1) 安装将压缩包下载到本地，并解压得到以下文件
 ![avatar](https://pic.imgdb.cn/item/6380d9f616f2c2beb14463e1.png)
+
 2) 打开chrome浏览器扩展程序或地址栏输入```chrome://extensions/```，并打开开发者模式。
 ![avatar](https://pic.imgdb.cn/item/6380db3516f2c2beb149c945.png)
+
 3) 点击已解压的扩展程序。
 ![avatar](https://pic.imgdb.cn/item/6380dbb016f2c2beb14bebb7.png)
+
 4)选择刚刚解压的文件，并进入如下目录结构，并点击确定。至此插件完整完毕。
 ![avatar](https://pic.imgdb.cn/item/6380dc2e16f2c2beb14d5622.png)
 
 ## 页面
+点击右上角盯盯翻译图标，弹出窗口中进行翻译。
+![avatar](https://pic.imgdb.cn/item/6380e03d16f2c2beb159c953.png)
+
+选中需要翻译的文字，鼠标右键菜单中并可以选择翻译。
+
+![avatar](https://pic.imgdb.cn/item/6380de0d16f2c2beb15361f1.jpg)
+
+点击翻译为中文
+
+![avatar](https://pic.imgdb.cn/item/6380decc16f2c2beb1554b49.png)
+
+翻译前后对比
+
+翻译前
+![avatar](https://pic.imgdb.cn/item/6380e09516f2c2beb15aa470.png)
+
+翻译后
+
+![avatar](https://pic.imgdb.cn/item/6380dfd716f2c2beb15828b7.png)
