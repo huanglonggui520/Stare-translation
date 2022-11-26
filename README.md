@@ -6,12 +6,14 @@
 
 ## 安装
 
-以chrome浏览器为例，安装插件后需要刷新网页生效
+安装插件后需要刷新网页生效，并且翻译链接时请单独对链接进行翻译，不要将普通文字与链接一起翻译。
+
+以chrome浏览器为例
 1) 安装将压缩包下载到本地，并解压得到以下文件
 
 <img src="https://pic.imgdb.cn/item/6380d9f616f2c2beb14463e1.png" width = "400" height = "200"  />
 <hr>
-2) 打开chrome浏览器扩展程序或地址栏输入```chrome://extensions/```，并打开开发者模式。
+2) 打开chrome浏览器扩展程序或地址栏输入 ```chrome://extensions/```，并打开开发者模式。
 
 
 <img src="https://pic.imgdb.cn/item/6380db3516f2c2beb149c945.png" width = "400" height = "200" />
