@@ -1,26 +1,24 @@
 //  import md5 from './md5'
-var flag = false
-var content = ''
+var flag = false//是否需要弹窗
+var content = ''//选中的文字
 var Html = ''
 
 async function send(obj) {
     
     // $('.value').text('result.trans_result[0].dst')
     // let data
-    var res=''
+    var res=''//翻译结果
     await $.ajax({
         async: false,
         type: "get",
-        // data: obj,
-        url: `http://fanyi.youdao.com/translate?&doctype=json&type=AUTO&i=${obj.q}`,/*url写异域的请求地址*/
+        data: {q:obj.q,from:'Auto','to':'Auto'},
+        url: `https://aidemo.youdao.com/trans`,/*url写异域的请求地址*/
         // dataType: "jsonp",/*加上datatype*/
         jsonpCallback: "callback",/*设置一个回调函数，名字随便取，和下面的函数里的名字相同就行*/
         success: function (result) {
-            // console.log(result.translateResult);
-            result.translateResult[0].forEach(item=>{
-                res=res+item.tgt
-                // console.log(item);
-            })
+            res=JSON.parse(result)
+        //    console.log(res.translation[0]);
+           res=res.translation[0]
             callback(res)
             // chrome.runtime.sendMessage({ info: txt, Html:e.target })
         }

@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
             // 开启弹窗
         if(!$('.huanglonggui').html()){
             $('body').append(str)
-            console.log(box_x,box_y);
+            // console.log(box_x,box_y);
             if(box_y>=400){
                 $('.huanglonggui').css({'top':box_y-250+'px'})
             }else{
