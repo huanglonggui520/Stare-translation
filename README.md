@@ -42,8 +42,6 @@
 点击翻译为中文，出现一个翻译结果的弹窗
 
 <img src="https://pic.imgdb.cn/item/6382d13c16f2c2beb12ed8ee.png" width = "400" height = "200"  />
-<hr>
-
 
 ## 建议
 
