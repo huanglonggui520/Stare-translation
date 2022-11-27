@@ -41,8 +41,8 @@
 <hr>
 点击翻译为中文，出现一个翻译结果的弹窗
 
-<img src="https://pic.imgdb.cn/item/6382d13c16f2c2beb12ed8ee.png" width = "400" height = "200"  />
 
+<img src="https://pic.imgdb.cn/item/6382d30216f2c2beb1310ff5.png" width = "400" height = "200"   />
 ## 建议
 
 有什么建议的请联系```2764564604```
