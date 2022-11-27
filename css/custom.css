@@ -1,0 +1,91 @@
+.huanglonggui{
+    min-width: 250px;
+    background-color: #fff;
+max-width: 450px;
+    min-height: 150px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    /* width: 500px;
+    height: 350px; */
+    max-height: 200px;
+    border: 1px solid #D1D3D5;
+    /* height: 100px; */
+    /* background-color: red; */
+    position:fixed;
+    top: 100px;
+    left: 400px;
+    padding-bottom: 5px;
+    z-index: 999;
+    /* padding: 10px; */
+}
+
+.huanglonggui .htop{
+    width: 100%;
+    padding: 0;
+    height: 30px;
+    line-height: 30px;
+    background-color: #1461B2;
+}
+.htop p{
+    font-size: 14px;
+    /* position: absolute; */
+    position: sticky;
+    top: 0px;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    display: inline;
+
+}
+.htop span{
+    transform: rotate(40deg);
+    font-size: 25px;
+    display:inline;
+    margin-right: 5px;
+    color: #fff;
+    float: right;
+}
+.huanglonggui .hcontent{
+    padding: 6px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-size: 13px;
+    letter-spacing:1px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-height: 120px;
+    max-height: 160px;
+    /* overflow: hidden; */
+
+}
+.huanglonggui a{
+    display: inline;
+}
+.huanglonggui .content::-webkit-scrollbar {
+    /*滚动条整体样式*/
+    width: 1px; /*高宽分别对应横竖滚动条的尺寸*/
+    height: 1px;
+  }
+  .huanglonggui .hcontent::-webkit-scrollbar-thumb {
+    /*滚动条里面小方块*/
+    border-radius: 10px;
+    background-color: skyblue;
+    background-image: -webkit-linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.2) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(255, 255, 255, 0.2) 50%,
+      rgba(255, 255, 255, 0.2) 75%,
+      transparent 75%,
+      transparent
+    );
+  }
+  .huanglonggui .hcontent::-webkit-scrollbar-track {
+    /*滚动条里面轨道*/
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: #ededed;
+    border-radius: 10px;
+    /* display:; */
+  }
+ 

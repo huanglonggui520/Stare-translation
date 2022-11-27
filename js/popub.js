@@ -17,6 +17,7 @@ $(function(){
         // 调用后台background.js back函数
             
             $('.value').text(await bg.send(obj))
+            // consolelog()
             // send()
         });
         

@@ -7,32 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <div>而非</div>
-    <div class="a">第来她谓秦陛，韩没天后，骨是学。</div>
-    <script>
-        var a=document.querySelector('.a')
-        a.oncontextmenu=function(){
-        var funcGetSelectText = function () {
-        var txt = '';
-        if (document.selection) {
-            txt = document.selection.createRange().text; //ie浏览器
-        } else {
-            txt = document.getSelection(); //其他浏览器
-        }
-        return txt;
-    }
-    var container = container || document;
-    container.oncontextmenu = function (e) {
-        txt = funcGetSelectText();
-        el=e
-        if (txt) {
-            console.log(txt);
-            // chrome.runtime.sendMessage({ info: txt, Html:e.target })
-              
-        }
-    }
-        }
-   
-    </script>
+    我是新的标签页
 </body>
 </html>

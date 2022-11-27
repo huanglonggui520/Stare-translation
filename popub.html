@@ -35,13 +35,17 @@
             float: right;
             height: 30px;
         }
+        /* 翻译结果 */
         .value{
             width: 395px;
+            font-size: 16px;
             height: 150px;
+            padding: 5px;
             overflow-y: scroll;
             margin-top: 40px;
             background-color: #F5F5F5;
         }
+        
         .xlk{
             width: 120px;
             height: 30px;
@@ -53,11 +57,10 @@
 <body>
     <div class="contentfy">
         <h2>翻译</h2>
-        
         <textarea id="sr"  rows="10" placeholder="输入文字"></textarea>
        <div style="display:inline;float: left;">
         翻译为：
-        <!-- Split button -->
+        
         <select class="xlk">
             <option value="en">英文</option>
             <option value="zh">中文</option>
@@ -66,7 +69,7 @@
        </div>
        
         <button class="buttonsend">翻译</button>
-        
+        <!-- 翻译结果 -->
         <div class="value"></div>
     </div>
     <script src="js/md5.js"></script>

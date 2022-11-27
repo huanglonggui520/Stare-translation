@@ -1,43 +1,28 @@
-// 插入指定元素到指定位置
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>selection</title>
-  </head>
-  <body>
-    <div class="c">
-        <p style="color: red;">伟业亲爱结婚的jw</p>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .huanglonggui{
+    min-width: 300px;
+    min-height: 200px;
+    /* height: 100px; */
+    background-color: red;
+    position:fixed;
+    top: 50px;
+    left: 300px;
+    z-index: 100;
+}
+  </style>
+</head>
+<body>
+  <div class='huanglonggui'>
+    <div class='top'>
+        <p>盯盯翻译</p>
     </div>
-    <p>是备承玉降李韩珍动付穿，陀是搏故，论毒得自快。</p>
-  </body>
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-    var funcGetSelectText = function () {
-        var txt = '';
-        if (document.selection) {
-            txt = document.selection.createRange().text; //ie浏览器
-        } else {
-            txt = document.getSelection(); //其他浏览器
-        }
-        return txt.toString();
-    }
-    var container = container || document;
-    container.oncontextmenu = function (e) {
-        // alert(e)
-        console.log(e.target);
-        e.target.style.color='red'
-        var txt = funcGetSelectText();
-        if (txt) {
-            // alert(txt);
-            chrome.runtime.sendMessage({
-                info: txt
-              }, res => {
-                // 答复
-                // alert(res)
-              })
-              
-        }
-    }
-})
-  </script>
+</div>
+</body>
 </html>
