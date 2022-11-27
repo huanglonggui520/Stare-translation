@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 if(className!='huanglonggui' && className!='htop' && className!='hcontent' && !className!='hlogo' ){
                     console.log(true)
                     $('.huanglonggui').remove()
-                    
+                    document.onclick=null
                 }
             }
             // $('.huanglonggui').css({'top':box_x+'px','left':box_y+'px'})
@@ -57,6 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
             
             // var height = $(window).scrollTop();//前一行的滚动条位置
             $('.huanglonggui').remove()
+            document.onclick=null
         // $("html,body").animate({ scrollTop: height }, 300);//设置滚动条位置
 
         })
