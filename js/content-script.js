@@ -5,7 +5,9 @@ document.addEventListener('DOMContentLoaded', function () {
     let box_x=0
     let box_y=0
     chrome.runtime.onMessage.addListener((req, sender, call) => {
-        
+        // console.log(txt.split(/\n|\r/g));
+        console.log(req.data);
+        // console.log(arr);
         // var reg=new RegExp(txt,'g')
         // el.target.innerHTML=el.target.innerText.replace(/^\s|\s$/g,'')
         // el.target.innerHTML=el.target.innerHTML.replace(reg,`<span class="huanglongguitxt" style="color: #1089E5;">${req.data}</span>`)

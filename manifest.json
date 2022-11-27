@@ -50,18 +50,7 @@
 	
 	"homepage_url": "https://www.baidu.com",
 	
-	"chrome_url_overrides":
-	{
-		
-		"newtab": "newtab.html"
-	},
 	
-	"options_ui":
-	{
-		"page": "newtab.html",
-		
-		"chrome_style": true
-	},
     "content_scripts":[
 		{
 		 "matches":["<all_urls>"],
