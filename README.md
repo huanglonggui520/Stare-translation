@@ -39,20 +39,11 @@
 
 <img src="https://pic.imgdb.cn/item/6380de0d16f2c2beb15361f1.jpg" width = "400" height = "200"   />
 <hr>
-点击翻译为中文
+点击翻译为中文，出现一个翻译结果的弹窗
 
-<img src="https://pic.imgdb.cn/item/6380decc16f2c2beb1554b49.png" width = "400" height = "200"  />
+<img src="https://pic.imgdb.cn/item/6382d13c16f2c2beb12ed8ee.png" width = "400" height = "200"  />
 <hr>
-翻译前后对比
 
-翻译前
-
-<img src="https://pic.imgdb.cn/item/6380e09516f2c2beb15aa470.png" width = "400" height = "200"   />
-
-翻译后
-
-
-<img src="https://pic.imgdb.cn/item/6380dfd716f2c2beb15828b7.png" width = "400" height = "200"   />
 
 ## 建议
 
