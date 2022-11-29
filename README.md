@@ -4,7 +4,7 @@
 盯盯翻译为chrome浏览器翻译插件，此插件使用时会在浏览器右上角出现一个弹窗，在弹窗内可以进行输入文字翻译。给人带来了便捷，从此不需要每次都搜百度翻译，有道云翻译。
 而是直接点击右上角图标便可以进行翻译，除此之外，当选中页面文字并且鼠标右键时，也可以对选中文字进行翻译。
 
-![]( https://steins-gate-visitor-count.greenhandatsjtu.repl.co/{huanglonggui520})
+
 
 ## 安装
 
@@ -47,6 +47,5 @@
 
 
 <img src="https://pic.imgdb.cn/item/6382d30216f2c2beb1310ff5.png" width = "400" height = "200"   />
-## 建议
-
-有什么建议的请联系```2764564604```
+## 访问次数
+![]( https://steins-gate-visitor-count.greenhandatsjtu.repl.co/{huanglonggui520})
